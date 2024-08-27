@@ -1,0 +1,76 @@
+QLineEdit, QDateEdit, QComboBox, QPushButton, QSpinBox{
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+QGroupBox{
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+QGroupBox#login-groupbox{
+    border: 0;
+}
+
+QTreeView{
+    border-radius: 5px;
+}
+
+QPushButton.login-btn{
+    background-color: rgb(80, 80, 252);
+    color: white;
+    border-radius: 10px;
+}
+
+QPushButton.login-btn:hover{
+    background-color: rgba(80, 80, 252, 0.7);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1s;
+}
+
+QPushButton.normal-btn{
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(193, 190, 190);
+    border-radius: 3px;
+}
+
+QPushButton.normal-btn:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+QPushButton{
+    background-color: rgba(80, 80, 252, 0.7);
+}
+
+QPushButton.dash-btn{
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.539);
+    text-align: left;
+}
+
+QPushButton.dash-btn:hover{
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+QPushButton.logout-btn{
+    padding: 8px;
+    background-color: rgb(80, 80, 252);
+    color: white;
+    border: 0;
+    border-radius: 50px;
+    width: max-content;
+}
+
+QPushButton.logout-btn:hover{
+    background-color: rgba(80, 80, 252, 0.7);
+}
+
+QGroupBox.dash-btn-group{
+    border: 0;
+}
